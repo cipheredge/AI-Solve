@@ -1,6 +1,6 @@
 ---
 title: "The Unity of Dependence and Independence: Reflections from Life to Philosophy"
-date: 2025-02-18T15:49:14+04:00
+date: 2025-02-22T15:49:14+04:00
 slug: 'unity-of-dependence-and-independence'
 draft: false
 cover: "https://jiejue.obs.ap-southeast-1.myhuaweicloud.com/20250218155207657.webp"

@@ -1,6 +1,6 @@
 ---
 title: "Release Automation: A Journey from Chaos to Best Practices"
-date: 2025-02-19T21:49:58+04:00
+date: 2025-02-22T21:49:58+04:00
 slug: 'release-automation-best-practices'
 draft: false
 cover: "https://jiejue.obs.ap-southeast-1.myhuaweicloud.com/20250219215307280.webp"
