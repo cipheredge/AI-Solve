@@ -1,0 +1,101 @@
+baseURL = "https://jiejue.ai/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "AI Solve"
+theme = "hugo-theme-dream"
+
+# Ensure lastmod time updates when pages are generated
+enableGitInfo = true
+enableRobotsTXT = true
+
+hasCJKLanguage = true
+
+# Use html suffix
+uglyURLs = false
+
+[module]
+  [[module.mounts]]
+    includeFiles = ["**/index.md", "**/index_quick.md", "**/index_deep.md"]
+    source = 'content'
+    target = 'content'
+
+[services]
+  [services.disqus]
+    # shortname = "ai-solve"
+  [services.googleAnalytics]
+    ID = "G-S0KCH9BW4F"
+
+[params]
+  # background image
+  background = "#f7f7f7"
+  
+  # Title configuration
+  headerTitle = "AI Solve"
+  motto = "Using AI to Serve People"
+  
+  # other configurations
+  siteStartYear = 2025
+  favicon = "/favicon.ico"
+  darkMode = true
+  
+  lightTheme = "emerald"
+  darkTheme = "forest"
+  
+  # Author information
+  author = "Dong Hao"
+  avatar = "/favicon.ico"
+  description = 'Silicon-based Life Kindergarten Coordinator'
+
+  footerBottomText = "Silicon-based Life Kindergarten"
+
+  rss = true
+
+  # options
+  stickyNav = true
+  showTableOfContents = true
+  showSummaryCoverInPost = true
+  imageZoomableInPost = true
+  showPrevNextPost = true
+
+  [params.navItems]
+    # Navigation items configuration
+    # github = { href = "https://github.com/", target = "_blank", icon = "logo-github", title = "GitHub" }
+    # linkedin = { href = "https://linkedin.com/in/", target = "_blank", icon = "logo-linkedin", title = "Linkedin" }
+    # twitter = { href = "https://twitter.com/", target = "_blank", icon = "logo-twitter", title = "Twitter" }
+    # email = { href = "mailto:", target = "_blank", icon = "mail-outline", title = "Email" }
+
+  [params.experimental]
+    jsDate = true
+    jsDateFormat = "yyyy-MM-dd HH:mm"
+
+# Add Busuanzi counter
+  [params.busuanzi]
+    enable = true
+    # Enable site unique visitor count
+    site_uv = true
+    # Icon or text before site unique visitor count
+    site_uv_pre = '<i class="fa fa-user"></i>'
+    # Icon or text after site unique visitor count
+    site_uv_post = ''
+    # Enable site total page views
+    site_pv = true
+    # Icon or text before site page views
+    site_pv_pre = '<i class="fa fa-eye"></i>'
+    # Icon or text after site page views
+    site_pv_post = ''
+    # Enable single page views
+    page_pv = true
+    # Icon or text before single page views
+    page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
+    # Icon or text after single page views
+    page_pv_post = ''
+
+[permalinks]
+  posts = '/:year/:month/:slug/'
+  tags = '/:slug/'
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
