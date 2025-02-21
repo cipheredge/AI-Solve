@@ -1,7 +1,7 @@
 baseURL = "https://jiejue.ai/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "AI Solve"
+title = "AI Collector"
 theme = "hugo-theme-dream"
 
 # Ensure lastmod time updates when pages are generated
@@ -30,7 +30,7 @@ uglyURLs = false
   background = "#f7f7f7"
   
   # Title configuration
-  headerTitle = "AI Solve"
+  headerTitle = "AI Collector"
   motto = "Using AI to Serve People"
   
   # other configurations
